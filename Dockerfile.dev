@@ -7,5 +7,6 @@ COPY package.json .
 RUN npm install
 COPY . .
 
+
 # startup command
 CMD ["npm","run","start"]
